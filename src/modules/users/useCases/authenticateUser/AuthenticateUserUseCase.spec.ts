@@ -30,6 +30,7 @@ describe("Authenticate User", () => {
       password: user.password
     })
 
+
     expect(result).toHaveProperty("token")
   });
 
